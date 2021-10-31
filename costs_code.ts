@@ -1756,4 +1756,4 @@ var a = "Provides COMMS stat for ships that require it.",
     "turret_6x3",
   ];
 
-console.log(E);
+console.log(JSON.stringify(E));
