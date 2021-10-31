@@ -1756,4 +1756,5 @@ var a = "Provides COMMS stat for ships that require it.",
     "turret_6x3",
   ];
 
-console.log(JSON.stringify(E));
+const _ = require("lodash");
+console.log(JSON.stringify(_.pick(E, R)));
